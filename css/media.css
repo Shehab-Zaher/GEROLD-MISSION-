@@ -1,0 +1,329 @@
+@media (min-width:480px) {}
+
+
+/* Small */
+
+
+@media (min-width:576px) {
+
+    .home .container,
+    .work .container,
+    .my-skills .container,
+    .contact .container,
+    footer {
+        width: 90%;
+
+    }
+
+    .home .container .donwload-cv,
+    .home .container .social {
+        flex-basis: 50%;
+    }
+
+    .home .container .social {
+        align-self: center;
+    }
+
+    form .holder input {
+        flex-basis: calc(50% - 10px);
+        margin: 10px 5px;
+        padding: 10px 0;
+    }
+
+}
+
+/* Medium */
+
+
+@media (min-width:768px) {
+
+    .home .container,
+    .work .container,
+    .my-skills .container,
+    .contact .container,
+    footer {
+        width: 85%;
+
+    }
+
+    nav .container {
+        width: 80%;
+    }
+
+
+    .left {
+        flex-basis: 40%;
+    }
+
+    .home .container {
+        justify-content: space-around;
+    }
+
+    .home .container .welcome>h1 {
+        font-size: 2rem;
+        width: 100%;
+    }
+
+    .home .container .left>p {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    .home .container .left .image {
+        display: none;
+    }
+
+    .right {
+        display: block;
+        flex-basis: 60%;
+    }
+
+    .right .image {
+        width: 90%;
+    }
+
+    .right .image img {
+        width: 100%;
+        /* margin-left: auto; */
+    }
+
+    .home .container .donwload-cv {
+        flex-basis: 100%;
+    }
+
+    .home .container .social {
+        flex-basis: 100%;
+    }
+
+    .my-skills .container .cards .card {
+        flex-basis: 33.33333%;
+    }
+
+
+
+    .work .container .projects .project {
+        flex-basis: 50%;
+
+    }
+
+    .contact .container {
+        align-items: center;
+    }
+
+    .contact .container .details {
+        flex-basis: 40%;
+        order: 1;
+    }
+
+    .contact .container .details .row span:first-child,
+    .contact .container .details .row span:last-child {
+        font-size: 1rem;
+    }
+
+    form {
+        flex-basis: 60%;
+    }
+}
+
+
+/* Large */
+
+@media (min-width:992px) {
+
+    .home .container,
+    .work .container,
+    .my-skills .container,
+    .contact .container,
+    footer {
+        width: 95%;
+
+    }
+
+    nav .container {
+        width: 95%;
+    }
+
+    nav .container .logo {
+    margin-right: 20px;
+    }
+
+    nav .container > a {
+        font-size: .9rem;
+
+    }
+
+    nav .container ul li a {
+        font-size: 1rem;
+    }
+
+
+    nav .container .menu {
+        display: none;
+    }
+
+    nav .container > a {
+        display: block;
+    }
+
+
+    nav .container ul {
+        display: flex;
+        margin-right: 10px;
+    }
+
+    nav .container .main-btn a {
+    padding: 15px 30px;
+
+    }
+
+    .home .container .welcome>h1 {
+        font-size: 2.7rem;
+        width: 100%;
+
+    }
+
+    .home .container .left>p {
+        font-size: 1.5rem;
+    }
+
+
+    .home .container .donwload-cv {
+        flex-basis: calc(50% - 20px);
+
+    }
+
+    .home .container .donwload-cv button {
+        padding: 10px 15px;
+
+    }
+
+    .home .container .social {
+        flex-basis: calc(50% - 5px);
+        margin-left: auto;
+    }
+
+    .home .container .social i {
+        margin-right: 10px;
+    }
+
+    .home .container .experience {
+        justify-content: space-between;
+    }
+
+    .home .container .experience .col {
+        flex-basis: 20%;
+    }
+
+
+    .work .container .welcome > h2 , 
+    .my-skills .container .welcome h2 {
+        font-size: 3rem;
+    }
+
+    .work .container .welcome > p ,
+    .my-skills .container .welcome p {
+        font-size: 1rem;
+        width: 50%;
+        margin: 0 auto;
+    }
+
+
+    .work .container .switcher-holder span {
+        font-size: 1.8rem;
+        padding: 10px;
+    }
+
+
+    .my-skills .container .cards {
+        width: auto;
+        justify-content: center;
+    }
+
+    .my-skills .container .cards .card {
+        flex-basis: 20%;
+    }
+
+    .contact .container {
+        justify-content: space-around;
+    }
+
+    .contact .container .details {
+        flex-basis: 30%;
+}
+}
+
+/* X-Large */
+
+
+@media (min-width:1200px) {
+
+
+
+
+    .home .container,
+    .work .container,
+    .my-skills .container,
+    .contact .container,
+    footer {
+        width: 85%;
+
+    }
+
+
+    nav .container {
+        width: 85%;
+    }
+
+    
+    nav .container .main-btn {
+        margin-left: 10px;
+    }
+
+    .home .container .welcome > h1 {
+        width: 80%;
+    }
+
+    .home .container .image img {
+        width: 50%;
+    }
+
+    .home .container .donwload-cv button {
+        padding: 15px 35px;
+    }
+
+    .home .container .donwload-cv button a {
+        font-size: .9rem;
+    }
+
+    .home .container .social i {
+        padding: .5rem;
+    }
+    
+
+    .home .container .experience {
+        width: 100%;
+    }
+
+
+    .home .container .experience .col {
+        flex-basis: 25%;
+    }
+
+    .home .container .experience .col .inner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home .container .experience .col .inner  p {
+        margin-left: 10px;
+    }
+
+    .my-skills .container .cards .card {
+        flex-basis: 16.6666666667%;
+    }
+
+    form {
+        flex-basis: 40%;
+    }
+} 
